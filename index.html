@@ -29,6 +29,7 @@
             colors: {
               clifford: '#da373d',
               'comm-green': '#179800',
+              // 'secondary': '#EFEBE3',
             }
           }
         }
@@ -37,6 +38,8 @@
 
   <!-- CSS Link -->
    <link rel="stylesheet" href="style.css"> 
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
 
@@ -140,27 +143,99 @@
       <main class="md:container mx-auto">
 
         <!-- Services section -->
-         <section>Services
-            <div>
+         <section class="mb-40">
+            <h2 class="text-2xl mx-5 primary-color font-semibold">Services</h2>
+            <div class=" flex">
               <!-- Service -->
-                <div class="w-[424px] h-[324px] bg-base-200">
-                  <img src="c2-assets/service.png" alt="">
-                  <h3>24/7 Services </h3>
-                  <p>Non-stop, day and night 24/7 service.</p>
+              
+                <div class="bg-base-200 w-[424px] h-[324px] rounded-xl text-center mx-5 my-5 flex flex-col items-center justify-center space-y-4 ">
+                  <div class="absolute bg-white rounded-full mb-40">
+                    <img class="p-4" src="c2-assets/service.png" alt="" class="w-24 h-24">
+                  </div>
+                  
+                  <div class="">
+                    <h3 class="">24/7 Services</h3>
+                    <p class="">Non-stop, day and night 24/7 service.</p>
+                  </div>
 
                 </div>
               <!-- Fast Delivery -->
-                <div>
-
+              <div class="bg-base-200 w-[424px] h-[324px] rounded-xl text-center mx-5 my-5 flex flex-col items-center justify-center space-y-6">
+                <div class="absolute bg-white rounded-full mb-40">
+                  <img class="p-4" src="c2-assets/delivery.png" alt="" class="w-24 h-24">
                 </div>
+                
+                <div class="">
+                  <h3>Fast Delivery</h3>
+                <p>Quck delivery day and night 24/7. Order to get in a fastesst way</p>
+                </div>
+
+              </div>
               <!-- Healthy Product -->
-                <div>
-
+              <div class="bg-base-200 w-[424px] h-[324px] rounded-xl text-center mx-5 my-5 flex flex-col items-center justify-center space-y-6">
+                <div class="absolute bg-white rounded-full mb-40">
+                  <img class="p-4" src="c2-assets/healthy.png" alt="" class="w-24 h-24">
                 </div>
+                <div>
+                  <h3>Healthy Products</h3>
+                <p>Quck delivery day and night 24/7. Order to get in a fastesst way</p>
+                </div>
+
+              </div>
 
             </div>
 
          </section>
+
+         <!-- Popular Products -->
+          <section class="bg-base-200 w-[1600] h-[775]">
+            <h2 class="text-2xl mx-5 primary-color font-semibold ">Popular Products</h2>
+
+            <div class="grid grid-cols-2 grid-rows-3 gap-4">     <!--Parent div-->
+
+              <!-- Image Section -->
+              <div class="relative w-[424px] h-[402px] bg-gradient-to-r from-[#32CD32] to-[#ECFFDC] rounded-xl">
+                <h1 class="text-white font-semibold text-xl ml-5 mt-10">30% off</h1>
+                <p class="ml-5">Discover a world of treats, toys, and essentials handpicked for</p>
+                <button class="btn btn-secondary ml-5 bg-white text-black border-none">Buy Now</button>
+                
+                <!-- Image positioned at the bottom-right corner -->
+                <img src="c2-assets/vegetable-offer.png" alt="" class="absolute bottom-0 right-0" />
+            </div>
+            
+<!-- Grid Section Start -->
+<div class="grid-container rounded-md">
+  
+  <div>
+    <img class="bg-base-200" src="c2-assets/onion.jpeg" alt="">
+    <div class="item1"><span class="fa fa-star checked"></span>4.5</div>
+    <h1>Onion 1 KG</h1>
+    <h1>$39.99</h1>
+  </div>
+  <div class="item2"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item3"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item4"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item5"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item6"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item7"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item8"><span class="fa fa-star checked"></span>4.5</div>
+  <div class="item9"><span class="fa fa-star checked"></span>4.5</div>
+</div>
+
+<!-- Grid section Ends -->
+                                 
+   <!-- Add icon library -->
+
+
+
+             
+                  
+
+            </div>
+
+
+
+          </section>
       
 
         
