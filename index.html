@@ -21,6 +21,8 @@
         }
     </style>
 
+<script src="https://kit.fontawesome.com/867a929845.js" crossorigin="anonymous"></script>
+
     <!-- TailwindCSS CDN -->
     <script>
       tailwind.config = {
@@ -407,23 +409,49 @@
 
       <!-- Footer section -->
        <footer>
+
+
           <!-- Grocery News -->
-           <div class="flex py-5 bg-gray-200 w-[1320] h-[460] absolute">
+           <div class="flex px-20 py-5 bg-gray-200 w-[1320] h-[460]">
               <div class="px-50">
                 <img src="c2-assets/vegetable-busket.png" alt="">
               </div>
-              <div class="px-20">
-                <h1>Get Grocery News!</h1>
-                <p>Exclusive training tips, ticks, product deals and more.</p>
+              <div class="px-20 py-5">
+                <h1 class="text-2xl font-bold py-5">Get Grocery News!</h1>
+                <p class="py-5">Exclusive training tips, ticks, product deals and more.</p>
                 <div class="mb-6">
-                  <input type="email" id="email" class="text-gray-900 text-sm rounded-lg block w-[470] p-2.5 " placeholder="Enter Email" required />
+                  <input type="email" id="email" class="text-gray-900 text-sm rounded-lg block w-[470] px-20 p-2.5 " placeholder="Enter Email" required />
                 </div>
                 <div>
                   <button class="text-white font-thin bg-[#179800] w-[164] h-[45] px-6 py-1 rounded-lg">Subscribe</button>
                 </div> 
               </div>
+            </div>
+
+           <!-- Bottom info -->
+            
+           <div class="flex justify-evenly py-10 bg-[#179800]">
+              <div>
+                <img src="c2-assets/logo-footer.png" alt="">
+                <p class="font-thin text-white">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+              </div>
+
+              <div class="font-thin text-white">
+                <h1>Product</h1>
+                <h1>Services</h1>
+                <h1>Contact us</h1>
+              </div>
+
+              <div>
+                <h1 class="text-white font-thin">Follow us</h1>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
            </div>
-         
+           
+                    
        </footer>
     
 </body>
